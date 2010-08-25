@@ -89,3 +89,7 @@ set hidden
 set wildmenu
 set wildignore=*.dll,*.o,*.pyc,*.pyo,*.bak,*.swp,*.exe,*.jpg,*.jpeg,*.png,*.gif
 set wildmode=list:full
+
+" make the home key behave like ^
+map <Home> ^
+imap <Home> <Esc>^i
