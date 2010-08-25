@@ -93,3 +93,7 @@ set wildmode=list:full
 " make the home key behave like ^
 map <Home> ^
 imap <Home> <Esc>^i
+
+" highlight anything over the 80 column limit
+highlight OverLength ctermbg=red guibg=red
+match OverLength /\%81v.\+/
