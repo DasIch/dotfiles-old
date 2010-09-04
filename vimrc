@@ -22,9 +22,6 @@ filetype indent on
 highlight UnwantedSpaces ctermbg=red guibg=red
 match UnwantedSpaces /\s\+$\|\s\t\|\t\s/
 
-" change the current working directory to the directory of the current file
-set autochdir
-
 " enable smart indentation
 set smartindent
 " deactivate it for hashes
@@ -96,3 +93,10 @@ imap <Home> <Esc>^i
 " highlight anything over the 80 column limit
 highlight OverLength ctermbg=red guibg=red
 match OverLength /\%81v.\+/
+
+" set leader to ','
+let mapleader=","
+
+" configure :FufFile to be on ',e', also pattern is prefixed with **/ this
+" way the entire tree is searched
+nmap <leader>e :FufFile **/<CR>
