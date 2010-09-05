@@ -104,3 +104,6 @@ nmap <leader>e :FufFile **/<CR>
 " store backupfiles in ~/.vim/sessions
 set backupdir=~/.vim/sessions
 set dir=~/.vim/sessions
+
+" files to ignore by fuzzy finder
+let g:fuf_file_exclude='\.egg-info\|_build\|env\|\.\(git\|hg\)'
