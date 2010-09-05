@@ -100,3 +100,7 @@ let mapleader=","
 " configure :FufFile to be on ',e', also pattern is prefixed with **/ this
 " way the entire tree is searched
 nmap <leader>e :FufFile **/<CR>
+
+" store backupfiles in ~/.vim/sessions
+set backupdir=~/.vim/sessions
+set dir=~/.vim/sessions
