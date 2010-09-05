@@ -107,3 +107,7 @@ set dir=~/.vim/sessions
 
 " files to ignore by fuzzy finder
 let g:fuf_file_exclude='\.egg-info\|_build\|env\|\.\(git\|hg\)'
+
+" specify vertical size/width, 90 columns looks perfect for 80 columns with
+" activated line numbers
+set columns=90
