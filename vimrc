@@ -113,3 +113,12 @@ set columns=90
 
 " specify the vertical size
 set lines=40
+
+" easily skip through each occurence of the search term
+set incsearch
+
+" highlight search terms
+set hlsearch
+
+" easy deactivate hlsearch on <ESC>
+nnoremap <ESC> :nohlsearch<CR>
