@@ -110,9 +110,9 @@ hi rubyConstant               guifg=#dd7700                     gui=bold
 hi rubyBlockParameter         guifg=#66cd66
 hi rubyPredefinedIdentifier   guifg=#49c9b5
 hi rubyInterpolationDelimiter guifg=#00bdec                     gui=bold
-hi rubyString                 guifg=#0086d2    guibg=#071320
-hi rubyStringDelimiter        guifg=#dd7700    guibg=#071320
-hi rubyRegexp                 guifg=#92cd35    guibg=#200000
+hi rubyString                 guifg=#0086d2
+hi rubyStringDelimiter        guifg=#dd7700
+hi rubyRegexp                 guifg=#92cd35
 hi rubyRegexpDelimiter        guifg=#ff0007
 hi rubySpaceError             guibg=#270000
 hi rubyDocumentation          guifg=#aaaaaa
