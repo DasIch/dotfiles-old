@@ -108,11 +108,13 @@ set dir=~/.vim/sessions
 " files to ignore by fuzzy finder
 let g:fuf_file_exclude='\.egg-info\|_build\|env\|\.\(git\|hg\)'
 
-" specify the horizontal size
-set columns=90
+if has("gui_running")
+  " specify the horizontal size
+  set columns=90
 
-" specify the vertical size
-set lines=40
+  " specify the vertical size
+  set lines=40
+endif
 
 " easily skip through each occurence of the search term
 set incsearch
