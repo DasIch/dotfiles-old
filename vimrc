@@ -128,3 +128,6 @@ nnoremap <ESC>^[OA :nohlsearch<CR>
 nnoremap <ESC>^[OB :nohlsearch<CR>
 nnoremap <ESC>^[OC :nohlsearch<CR>
 nnoremap <ESC>^[OD :nohlsearch<CR>
+
+" force 256 color mode
+set t_Co=256
