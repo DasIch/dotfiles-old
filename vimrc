@@ -131,3 +131,7 @@ nnoremap <ESC>^[OD :nohlsearch<CR>
 
 " force 256 color mode
 set t_Co=256
+
+" deactivate folding, the most annyoing editor 'feature' humanity was able to
+" come up with
+set nofoldenable
