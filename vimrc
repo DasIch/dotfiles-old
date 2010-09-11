@@ -5,7 +5,7 @@ set nocompatible
 set backspace=indent,eol,start
 
 " set my preferred colorscheme
-colorscheme fruity
+colorscheme fruitylicious
 
 " enable automatic title setting
 set title
