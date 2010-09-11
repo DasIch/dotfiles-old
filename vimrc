@@ -122,3 +122,9 @@ set hlsearch
 
 " easy deactivate hlsearch on <ESC>
 nnoremap <ESC> :nohlsearch<CR>
+" solves the problem of switching to inside mode and putting in characters
+" when using vim and not gvim
+nnoremap <ESC>^[OA :nohlsearch<CR>
+nnoremap <ESC>^[OB :nohlsearch<CR>
+nnoremap <ESC>^[OC :nohlsearch<CR>
+nnoremap <ESC>^[OD :nohlsearch<CR>
