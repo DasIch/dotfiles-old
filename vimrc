@@ -140,3 +140,6 @@ set nofoldenable
 
 " toggle ctags on ,t
 nmap <leader>t :TlistToggle<CR>
+
+" map :Align to ,a
+vmap <silent> <leader>a :Align
