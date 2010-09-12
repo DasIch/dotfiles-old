@@ -30,7 +30,7 @@ inoremap # #
 " make the command line two lines high and change the statusline display
 set cmdheight=2
 set laststatus=2
-set statusline=[%l,%c\ %P%M]\ %F\ %r%h%w
+set statusline=[%l,%c\ %P%M]\ %F\ %{TagInStatusLine()}\ %r%h%w
 set showcmd
 set number
 
