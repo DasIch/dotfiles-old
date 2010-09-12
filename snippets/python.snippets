@@ -1,48 +1,36 @@
 snippet #!
 	#!/usr/bin/env python
 	# coding: utf-8
-
 snippet import
 	import ${1:module}
-
 snippet from
 	from ${1:module} import ${2:object}
-
 snippet for
 	for ${1:item} in ${2:iterable}:
 		${3}
-
 snippet while
 	while ${1:condition}:
 		${2}
-
 snippet if
 	if ${1:__name__ == '__main__'}:
 		${2:main()}
-
 snippet elif
 	elif ${1:condition}:
 		${2}
-
 snippet else
 	else:
 		${1}
-
 snippet try
 	try:
 		${1}
 	except ${2}:
 		${3}
-
 snippet with
 	with ${1:contextmanager}:
 		${2}
-
-
 snippet def
 	def ${1:main}(${2:`indent('.') ? 'self' : ''`}):
 		${3}
-
 snippet class
 	class ${1:ClassName}(${2:object}):
 		${3}
