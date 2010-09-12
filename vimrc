@@ -143,3 +143,10 @@ nmap <leader>t :TlistToggle<CR>
 
 " map :Align to ,a
 vmap <silent> <leader>a :Align
+
+" configure enhanced commentify sanely
+let g:EnhCommentifyRespectIndent='yes'
+" spaces around comment strings
+let g:EnhCommentifyPretty='yes'
+" support for embedded languages
+let g:EnhCommentifyUseSyntax='yes'
