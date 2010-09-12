@@ -137,3 +137,6 @@ set t_Co=256
 " deactivate folding, the most annyoing editor 'feature' humanity was able to
 " come up with
 set nofoldenable
+
+" toggle ctags on ,t
+nmap <leader>t :TlistToggle<CR>
