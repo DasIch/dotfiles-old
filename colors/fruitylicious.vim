@@ -49,14 +49,14 @@ hi Special guifg=#fd8900 ctermfg=208
 " Syntax Elements
 hi String     guifg=#0086d2 ctermfg=32
 hi Constant   guifg=#0086d2 ctermfg=32
-hi Number     guifg=#0086f7 ctermfg=33                            gui=bold term=bold
-hi Statement  guifg=#fb660a ctermfg=202                           gui=bold term=bold
-hi Function   guifg=#ff0086 ctermfg=198                           gui=bold term=bold
-hi PreProc    guifg=#ff0007 ctermfg=196                           gui=bold term=bold
+hi Number     guifg=#0086f7 ctermfg=33                            gui=bold   term=bold
+hi Statement  guifg=#fb660a ctermfg=202                           gui=bold   term=bold
+hi Function   guifg=#ff0086 ctermfg=198                           gui=bold   term=bold
+hi PreProc    guifg=#ff0007 ctermfg=196                           gui=bold   term=bold
 hi Comment    guifg=#00d2ff ctermfg=81                            gui=italic term=italic
-hi Type       guifg=#cdcaa9 ctermfg=187                           gui=bold term=bold
+hi Type       guifg=#cdcaa9 ctermfg=187                           gui=bold   term=bold
 hi Error      guifg=#ffffff ctermfg=231 guibg=#ab0000 ctermbg=124
-hi Identifier guifg=#ff0086 ctermfg=198                           gui=bold term=bold
+hi Identifier guifg=#ff0086 ctermfg=198                           gui=bold   term=bold
 hi Label      guifg=#ff0086 ctermfg=198
 
 " Minibuf Explorer
@@ -127,12 +127,12 @@ hi xmlTag         guifg=#00bdec ctermfg=38
 hi xmlTagName     guifg=#00bdec ctermfg=38
 hi xmlEndTag      guifg=#00bdec ctermfg=38
 hi xmlNamespace   guifg=#00bdec ctermfg=38                            gui=underline term=underline
-hi xmlAttribPunct guifg=#cccaa9 ctermfg=187                           gui=bold term=bold
-hi xmlEqual       guifg=#cccaa9 ctermfg=187                           gui=bold term=bold
-hi xmlCdata       guifg=#bf0945 ctermfg=161                           gui=bold term=bold
-hi xmlCdataCdata  guifg=#ac1446 ctermfg=125 guibg=#23010c ctermbg=232 gui=none term=none
-hi xmlCdataStart  guifg=#bf0945 ctermfg=161                           gui=bold term=bold
-hi xmlCdataEnd    guifg=#bf0945 ctermfg=161                           gui=bold term=bold
+hi xmlAttribPunct guifg=#cccaa9 ctermfg=187                           gui=bold      term=bold
+hi xmlEqual       guifg=#cccaa9 ctermfg=187                           gui=bold      term=bold
+hi xmlCdata       guifg=#bf0945 ctermfg=161                           gui=bold      term=bold
+hi xmlCdataCdata  guifg=#ac1446 ctermfg=125 guibg=#23010c ctermbg=232 gui=none      term=none
+hi xmlCdataStart  guifg=#bf0945 ctermfg=161                           gui=bold      term=bold
+hi xmlCdataEnd    guifg=#bf0945 ctermfg=161                           gui=bold      term=bold
 
 " HTML Highlighting
 hi htmlTag            guifg=#00bdec ctermfg=38 gui=bold term=bold
@@ -143,29 +143,29 @@ hi htmlTagN           guifg=#66cd66 ctermfg=77
 hi htmlEvent          guifg=#ffffff ctermfg=231
 
 " Django Highlighting
-hi djangoTagBlock  guifg=#ff0007 ctermfg=196 guibg=#200000 ctermbg=232 gui=bold term=bold
+hi djangoTagBlock  guifg=#ff0007 ctermfg=196 guibg=#200000 ctermbg=232 gui=bold   term=bold
 hi djangoVarBlock  guifg=#ff0007 ctermfg=196 guibg=#200000 ctermbg=232
 hi djangoArgument  guifg=#0086d2 ctermfg=32  guibg=#200000 ctermbg=232
-hi djangoStatement guifg=#fb660a ctermfg=202 guibg=#200000 ctermbg=232 gui=bold term=bold
+hi djangoStatement guifg=#fb660a ctermfg=202 guibg=#200000 ctermbg=232 gui=bold   term=bold
 hi djangoComment   guifg=#008800 ctermfg=28  guibg=#002300 ctermbg=234 gui=italic term=italic
 hi djangoFilter    guifg=#ff0086 ctermfg=198 guibg=#200000 ctermbg=232 gui=italic term=italic
 
 " Jinja Highlighting
-hi jinjaTagBlock     guifg=#ff0007 ctermfg=196 guibg=#200000 ctermbg=232 gui=bold term=bold
+hi jinjaTagBlock     guifg=#ff0007 ctermfg=196 guibg=#200000 ctermbg=232 gui=bold   term=bold
 hi jinjaVarBlock     guifg=#ff0007 ctermfg=196 guibg=#200000 ctermbg=232
-hi jinjaString       guifg=#0086d2 ctermfg=32 guibg=#200000 ctermbg=232
-hi jinjaNumber       guifg=#bf0945 ctermfg=161 guibg=#200000 ctermbg=232 gui=bold term=bold
-hi jinjaStatement    guifg=#fb660a ctermfg=202 guibg=#200000 ctermbg=232 gui=bold term=bold
-hi jinjaComment      guifg=#008800 ctermfg=28 guibg=#002300 ctermbg=234 gui=italic term=italic
-hi jinjaCommentDelim guifg=#008800 ctermfg=28 guibg=#002300 ctermbg=234 gui=bold term=bold
+hi jinjaString       guifg=#0086d2 ctermfg=32  guibg=#200000 ctermbg=232
+hi jinjaNumber       guifg=#bf0945 ctermfg=161 guibg=#200000 ctermbg=232 gui=bold   term=bold
+hi jinjaStatement    guifg=#fb660a ctermfg=202 guibg=#200000 ctermbg=232 gui=bold   term=bold
+hi jinjaComment      guifg=#008800 ctermfg=28  guibg=#002300 ctermbg=234 gui=italic term=italic
+hi jinjaCommentDelim guifg=#008800 ctermfg=28  guibg=#002300 ctermbg=234 gui=bold   term=bold
 hi jinjaFilter       guifg=#ff0086 ctermfg=198 guibg=#200000 ctermbg=232
-hi jinjaFunction     guifg=#ff0086 ctermfg=198 guibg=#200000 ctermbg=232 gui=bold term=bold
+hi jinjaFunction     guifg=#ff0086 ctermfg=198 guibg=#200000 ctermbg=232 gui=bold   term=bold
 hi jinjaRaw          guifg=#ffffff ctermfg=231 guibg=#200000 ctermbg=232
-hi jinjaRawDelim     guifg=#aaaaaa ctermfg=250 guibg=#200000 ctermbg=232 gui=bold term=bold
+hi jinjaRawDelim     guifg=#aaaaaa ctermfg=250 guibg=#200000 ctermbg=232 gui=bold   term=bold
 hi jinjaOperator     guifg=#ffffff ctermfg=231 guibg=#200000 ctermbg=232
 hi jinjaVariable     guifg=#92cd35 ctermfg=112 guibg=#200000 ctermbg=232
 hi jinjaAttribute    guifg=#dd7700 ctermfg=172 guibg=#200000 ctermbg=232
-hi jinjaSpecial      guifg=#008ffd ctermfg=33 guibg=#200000 ctermbg=232
+hi jinjaSpecial      guifg=#008ffd ctermfg=33  guibg=#200000 ctermbg=232
 
 " C Highlighting
 hi cString  guifg=#0086d2 ctermfg=32  guibg=#071320 ctermbg=233
