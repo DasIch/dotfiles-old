@@ -150,3 +150,6 @@ let g:EnhCommentifyRespectIndent='yes'
 let g:EnhCommentifyPretty='yes'
 " support for embedded languages
 let g:EnhCommentifyUseSyntax='yes'
+
+" map :Ack to ,s
+map <leader>s :Ack 
