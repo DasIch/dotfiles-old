@@ -156,3 +156,6 @@ map <leader>s :Ack
 
 " don't load a blank buffer in place of the closed one
 let g:BufClose_AltBuffer='#'
+
+" paste on ,p
+map <leader>p :Lodgeit<CR>
