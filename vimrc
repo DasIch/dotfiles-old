@@ -97,16 +97,9 @@ match OverLength /\%81v.\+/
 " set leader to ','
 let mapleader=","
 
-" configure :FufFile to be on ',e', also pattern is prefixed with **/ this
-" way the entire tree is searched
-nmap <leader>e :FufFile **/<CR>
-
 " store backupfiles in ~/.vim/sessions
 set backupdir=~/.vim/sessions
 set dir=~/.vim/sessions
-
-" files to ignore by fuzzy finder
-let g:fuf_file_exclude='\.egg-info\|_build\|env\|\.\(git\|hg\)'
 
 if has("gui_running")
   " specify the horizontal size
@@ -159,3 +152,6 @@ let g:BufClose_AltBuffer='#'
 
 " paste on ,p
 map <leader>p :Lodgeit<CR>
+
+" map :CommandT to ,e
+nmap <unique> <silent> <Leader>e :CommandT<CR>
