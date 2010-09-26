@@ -33,18 +33,18 @@
 function rainbow_parenthsis#Activate()
     highlight default level16c guifg=#ffffff ctermfg=231
     highlight default level15c guifg=#ff0000 ctermfg=196
-    highlight default level14c guifg=#aa0000 ctermfg=124
-    highlight default level13c guifg=#ffff00 ctermfg=226
-    highlight default level12c guifg=#aaaa00 ctermfg=142
-    highlight default level11c guifg=#00ff00 ctermfg=46
-    highlight default level10c guifg=#00aa00 ctermfg=34
-    highlight default level9c guifg=#00ffff ctermfg=51
-    highlight default level8c guifg=#00aaaa ctermfg=37
-    highlight default level7c guifg=#0000ff ctermfg=21
+    highlight default level14c guifg=#ffff00 ctermfg=226
+    highlight default level13c guifg=#aa0000 ctermfg=124
+    highlight default level12c guifg=#00ff00 ctermfg=46
+    highlight default level11c guifg=#aaaa00 ctermfg=142
+    highlight default level10c guifg=#00ffff ctermfg=51
+    highlight default level9c guifg=#00aa00 ctermfg=34
+    highlight default level8c guifg=#0000ff ctermfg=21
+    highlight default level7c guifg=#00aaaa ctermfg=37
     highlight default level6c guifg=#0000aa ctermfg=19
-    highlight default level5c guifg=#ff00ff ctermfg=201
-    highlight default level4c guifg=#aa00aa ctermfg=127
-    highlight default level3c guifg=#ff0000 ctermfg=196
+    highlight default level5c guifg=#aa00aa ctermfg=127
+    highlight default level4c guifg=#ff0000 ctermfg=196
+    highlight default level3c guifg=#ff00ff ctermfg=201
     highlight default level2c guifg=#aa0000 ctermfg=124
     highlight default level1c guifg=#ffff00 ctermfg=226
     let rainbow_parenthesis#activate = 1
