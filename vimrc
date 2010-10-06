@@ -155,3 +155,11 @@ map <leader>p :Lodgeit<CR>
 
 " map :CommandT to ,e
 nmap <unique> <silent> <Leader>e :CommandT<CR>
+
+" move single line
+nmap <C-Up> [e
+nmap <C-Down> ]e
+
+" move multiple lines
+vmap <C-Up> [egv
+vmap <C-Down> ]egv
