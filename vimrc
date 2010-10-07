@@ -163,3 +163,14 @@ nmap <C-Down> ]e
 " move multiple lines
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
+
+" better indenting...
+"   ...in insert mode
+imap <silent> <Left> <C-D>
+imap <silent> <Right> <C-T>
+"   ...in visual mode
+vmap <silent> <Left> <
+vmap <silent> <Right> >
+"   ...in normal mode
+nmap <silent> <Left> <<
+nmap <silent> <Right> >>
