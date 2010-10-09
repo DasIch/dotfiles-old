@@ -10,9 +10,7 @@ Installation
 ------------
 
 `make install`
-
 	Installs the configuration overwriting a previous one.
 
 `clean-all`
-	
 	Deletes the current configuration as well as any build files.
