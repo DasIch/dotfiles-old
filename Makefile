@@ -1,33 +1,16 @@
 HOMEPREFIX ?= ~
-VIMPREFIX = $(HOMEPREFIX)/.vim
 
-install: clean build
+install: install-vim
 
-	@ln -s `pwd`/vimrc $(HOMEPREFIX)/.vimrc
-	@mkdir $(VIMPREFIX)
-	@ln -s `pwd`/after $(VIMPREFIX)/after
-	@ln -s `pwd`/ftplugin $(VIMPREFIX)/ftplugin
-	@ln -s `pwd`/plugin $(VIMPREFIX)/plugin
-	@ln -s `pwd`/ruby $(VIMPREFIX)/ruby
-	@ln -s `pwd`/syntax $(VIMPREFIX)/syntax
-	@ln -s `pwd`/autoload $(VIMPREFIX)/autoload
-	@ln -s `pwd`/colors $(VIMPREFIX)/colors
-	@ln -s `pwd`/snippets $(VIMPREFIX)/snippets
+clean: clean-vim
 
-configure-command-t:
-	@cd `pwd`/ruby/command-t && ruby extconf.rb
+clean-all: clean-all-vim
 
-build-command-t: configure
-	@cd `pwd`/ruby/command-t && make
+install-vim:
+	@make -C vim/ install
 
-clean-command-t: configure
-	@cd `pwd`/ruby/command-t && make realclean
+clean-vim:
+	@make -C vim/ clean
 
-configure: configure-command-t
-
-build: build-command-t
-
-clean:
-	@rm -rf $(VIMPREFIX) $(HOMEPREFIX)/.vimrc
-
-clean-all: clean clean-command-t
+clean-all-vim:
+	@make -C vim/ clean-all
