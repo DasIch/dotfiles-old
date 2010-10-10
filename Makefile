@@ -1,10 +1,10 @@
 HOMEPREFIX ?= ~
 
-install: install-vim install-xmodmap
+install: install-vim install-xmodmap install-bashrc
 
-clean: clean-vim clean-xmodmap
+clean: clean-vim clean-xmodmap install-bashrc
 
-clean-all: clean-all-vim clean-all-xmodmap
+clean-all: clean-all-vim clean-all-xmodmap clean-all-bashrc
 
 install-vim:
 	@make -C vim/ install
@@ -22,3 +22,11 @@ clean-xmodmap:
 	@rm $(HOMEPREFIX)/.Xmodmap
 
 clean-all-xmodmap: clean-xmodmap
+
+install-bashrc: clean-bashrc
+	@ln -s `pwd`/bashrc $(HOMEPREFIX)/.bashrc
+
+clean-bashrc:
+	@rm $(HOMEPREFIX)/.bashrc
+
+clean-all-bashrc: clean-bashrc
