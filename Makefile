@@ -1,10 +1,10 @@
 HOMEPREFIX ?= ~
 
-install: install-vim install-xmodmap install-bashrc
+install: install-vim install-xmodmap install-bashrc install-virtualenvwrapper
 
-clean: clean-vim clean-xmodmap install-bashrc
+clean: clean-vim clean-xmodmap install-bashrc clean-virtualenvwrapper
 
-clean-all: clean-all-vim clean-all-xmodmap clean-all-bashrc
+clean-all: clean-all-vim clean-all-xmodmap clean-all-bashrc clean-all-virtualenvwrapper
 
 install-vim:
 	@make -C vim/ install
@@ -30,3 +30,12 @@ clean-bashrc:
 	@rm -f $(HOMEPREFIX)/.bashrc
 
 clean-all-bashrc: clean-bashrc
+
+install-virtualenvwrapper:
+	@make -C virtualenvwrapper/ install
+
+clean-virtualenvwrapper:
+	@make -C virtualenvwrapper/ clean
+
+clean-all-virtualenvwrapper:
+	@make -C virtualenvwrapper/ clean-all
