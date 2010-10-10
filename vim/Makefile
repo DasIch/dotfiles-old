@@ -4,7 +4,7 @@ VIMPREFIX = $(HOMEPREFIX)/.vim
 install: clean build
 
 	@ln -s `pwd`/vimrc $(HOMEPREFIX)/.vimrc
-	@mkdir $(VIMPREFIX)
+	@mkdir -p $(VIMPREFIX)/sessions
 	@ln -s `pwd`/after $(VIMPREFIX)/after
 	@ln -s `pwd`/ftplugin $(VIMPREFIX)/ftplugin
 	@ln -s `pwd`/plugin $(VIMPREFIX)/plugin
