@@ -19,7 +19,7 @@ install-xmodmap: clean-xmodmap
 	@ln -s `pwd`/xmodmap $(HOMEPREFIX)/.Xmodmap
 
 clean-xmodmap:
-	@rm $(HOMEPREFIX)/.Xmodmap
+	@rm -f $(HOMEPREFIX)/.Xmodmap
 
 clean-all-xmodmap: clean-xmodmap
 
@@ -27,6 +27,6 @@ install-bashrc: clean-bashrc
 	@ln -s `pwd`/bashrc $(HOMEPREFIX)/.bashrc
 
 clean-bashrc:
-	@rm $(HOMEPREFIX)/.bashrc
+	@rm -f $(HOMEPREFIX)/.bashrc
 
 clean-all-bashrc: clean-bashrc

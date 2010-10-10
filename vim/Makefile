@@ -2,7 +2,6 @@ HOMEPREFIX ?= ~
 VIMPREFIX = $(HOMEPREFIX)/.vim
 
 install: clean build
-
 	@ln -s `pwd`/vimrc $(HOMEPREFIX)/.vimrc
 	@mkdir -p $(VIMPREFIX)/sessions
 	@ln -s `pwd`/after $(VIMPREFIX)/after
