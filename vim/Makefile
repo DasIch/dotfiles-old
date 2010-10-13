@@ -6,7 +6,6 @@ install: clean build
 	@mkdir -p $(VIMPREFIX)/sessions
 	@ln -s `pwd`/ftplugin $(VIMPREFIX)/ftplugin
 	@ln -s `pwd`/plugin $(VIMPREFIX)/plugin
-	@ln -s `pwd`/ruby $(VIMPREFIX)/ruby
 	@ln -s `pwd`/syntax $(VIMPREFIX)/syntax
 	@ln -s `pwd`/autoload $(VIMPREFIX)/autoload
 	@ln -s `pwd`/colors $(VIMPREFIX)/colors
