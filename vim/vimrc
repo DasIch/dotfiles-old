@@ -148,6 +148,8 @@ let g:EnhCommentifyPretty='yes'
 " support for embedded languages
 let g:EnhCommentifyUseSyntax='yes'
 
+" location of ack
+let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 " map :Ack to ,s
 map <leader>s :Ack 
 
