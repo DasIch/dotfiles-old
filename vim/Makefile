@@ -13,13 +13,13 @@ install: clean build
 	@ln -s `pwd`/bundle $(VIMPREFIX)/bundle
 
 configure-command-t:
-	@cd `pwd`/ruby/command-t && ruby extconf.rb
+	@cd `pwd`/bundle/command-t/ruby/command-t && ruby extconf.rb
 
 build-command-t: configure
-	@cd `pwd`/ruby/command-t && make
+	@cd `pwd`/bundle/command-t/ruby/command-t && make
 
 clean-command-t: configure
-	@cd `pwd`/ruby/command-t && make realclean
+	@cd `pwd`/bundle/command-t/ruby/command-t && make realclean
 
 configure: configure-command-t
 
