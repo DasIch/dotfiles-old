@@ -3,6 +3,7 @@
 
 alias ls='ls --color=auto'
 alias ack='ack-grep'
+alias ..='cd ..'
 
 export TERM=xterm-color
 
