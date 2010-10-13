@@ -1,3 +1,7 @@
+" load all bundles with pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " deactivate annoying backwards compatibility
 set nocompatible
 

@@ -12,6 +12,7 @@ install: clean build
 	@ln -s `pwd`/autoload $(VIMPREFIX)/autoload
 	@ln -s `pwd`/colors $(VIMPREFIX)/colors
 	@ln -s `pwd`/snippets $(VIMPREFIX)/snippets
+	@ln -s `pwd`/bundle $(VIMPREFIX)/bundle
 
 configure-command-t:
 	@cd `pwd`/ruby/command-t && ruby extconf.rb
