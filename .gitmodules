@@ -16,3 +16,6 @@
 [submodule "vim/bundle/unimpaired"]
 	path = vim/bundle/unimpaired
 	url = http://github.com/DasIch/vim-unimpaired.git
+[submodule "vim/bundle/vividchalk"]
+	path = vim/bundle/vividchalk
+	url = http://github.com/tpope/vim-vividchalk.git
