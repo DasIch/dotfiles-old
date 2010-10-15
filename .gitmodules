@@ -19,3 +19,6 @@
 [submodule "vim/bundle/vividchalk"]
 	path = vim/bundle/vividchalk
 	url = http://github.com/tpope/vim-vividchalk.git
+[submodule "vim/bundle/mercurial"]
+	path = vim/bundle/mercurial
+	url = git@github.com:DasIch/vim-mercurial.git
