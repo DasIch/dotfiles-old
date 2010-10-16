@@ -22,3 +22,6 @@
 [submodule "vim/bundle/mercurial"]
 	path = vim/bundle/mercurial
 	url = git@github.com:DasIch/vim-mercurial.git
+[submodule "vim/bundle/cameo"]
+	path = vim/bundle/cameo
+	url = git@github.com:DasIch/vim-cameo.git
