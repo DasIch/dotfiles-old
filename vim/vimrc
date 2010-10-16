@@ -1,3 +1,10 @@
+" deactivate everything which might load stuff not yet in the runtimepath
+" FUCK YOU UBUNTU AND ANYONE ELSE WHO MIGHT BE DOING THAT GLOBALLY I HATE YOU
+syntax off
+filetype off
+filetype plugin off
+filetype indent off
+
 " load all bundles with pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -16,6 +23,9 @@ set title
 
 " set title to 'filepath [vim]'
 set titlestring=%F\ [vim]
+
+" enable syntax highlighting
+syntax on
 
 " enable filetype plugins and indentation
 filetype on
