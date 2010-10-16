@@ -76,10 +76,7 @@ cnoreabbr <expr> bq 'BufClose'
 autocmd BufNewFile,BufRead *.mako setlocal ft=mako
 
 " use the restructured text filetype for txt files
-autocmd BufNewFile,BufRead *.txt setlocal ft=rst
-
-" for some reason filetype detection doesn't work so we have to set it here :/
-autocmd BufNewfile,BufRead *hg-editor* setlocal ft=mercurial
+autocmd BufNewFile,BufRead *.txt setfiletype ft=rst
 
 " remove the menu and toolbar. I don't use them so they are just wasting space
 set guioptions-=
