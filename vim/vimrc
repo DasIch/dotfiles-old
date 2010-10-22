@@ -190,3 +190,6 @@ vmap <silent> <Right> >
 "   ...in normal mode
 nmap <silent> <Left> <<
 nmap <silent> <Right> >>
+
+" easily open files in the current directory
+map <leader>ed :e <C-R>=expand("%:p:h") . "/" <CR>
