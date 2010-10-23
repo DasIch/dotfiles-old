@@ -20,10 +20,11 @@ endif
 let colors_name = "fruitylicious"
 
 " Default Colors
-hi Normal  guifg=#ffffff ctermfg=231 guibg=#111111 ctermbg=233
-hi NonText guifg=#444444 ctermfg=238 guibg=#111111 ctermbg=233
-hi Cursor  guibg=#aaaaaa ctermbg=250
-hi lCursor guibg=#aaaaaa ctermbg=250
+hi Normal     guifg=#ffffff ctermfg=231 guibg=#111111 ctermbg=233
+hi NonText    guifg=#444444 ctermfg=238 guibg=#111111 ctermbg=233
+hi SpecialKey guifg=#444444 ctermfg=238 guibg=#111111 ctermbg=233
+hi Cursor     guibg=#aaaaaa ctermbg=250
+hi lCursor    guibg=#aaaaaa ctermbg=250
 
 " Search
 hi Search    guifg=#800000 ctermfg=1 guibg=#ffae00 ctermbg=214
