@@ -192,4 +192,13 @@ nmap <silent> <Left> <<
 nmap <silent> <Right> >>
 
 " easily open files in the current directory
-map <leader>ed :e <C-R>=expand("%:p:h") . "/" <CR>
+map <leader>ed :e <C-R>=expand("%:p:h") . "/" <C
+
+" use the same symbols as textmate for tabs and eols
+set listchars=tab:▸\ ,eol:¬
+
+" shortcut for toggling set list!
+nmap <leader>l :set list!<CR>
+
+" set list per default
+set list
