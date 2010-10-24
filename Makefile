@@ -6,7 +6,7 @@ clean: clean-vim clean-xmodmap clean-bashrc clean-virtualenvwrapper
 
 clean-all: clean-all-vim clean-all-xmodmap clean-all-bashrc clean-all-virtualenvwrapper
 
-install-vim: update
+install-vim:
 	@make -C vim/ install
 
 clean-vim:
@@ -39,7 +39,3 @@ clean-virtualenvwrapper:
 
 clean-all-virtualenvwrapper:
 	@make -C virtualenvwrapper/ clean-all
-
-update:
-	@git submodule init
-	@git submodule update
