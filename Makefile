@@ -1,6 +1,6 @@
 HOMEPREFIX ?= ~
 
-install: install-vim install-xmodmap install-bashrc install-virtualenvwrapper
+install: install-vim install-xmodmap install-bashrc install-virtualenvwrapper install-hub
 
 clean: clean-vim clean-xmodmap clean-bashrc clean-virtualenvwrapper
 
@@ -39,3 +39,7 @@ clean-virtualenvwrapper:
 
 clean-all-virtualenvwrapper:
 	@make -C virtualenvwrapper/ clean-all
+
+install-hub:
+	@cd hub && rake standalone
+	@ln -s `pwd`/hub/hub $(HOMEPREFIX)/bin/hub

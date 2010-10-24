@@ -4,6 +4,7 @@
 alias ls='ls --color=auto'
 alias ack='ack-grep'
 alias ..='cd ..'
+alias git='hub'
 
 export TERM=xterm-color
 
