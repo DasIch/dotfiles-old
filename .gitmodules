@@ -27,7 +27,7 @@
 	url = git@github.com:DasIch/vim-cameo.git
 [submodule "vim/bundle/gundo"]
 	path = vim/bundle/gundo
-	url = http://github.com/sjl/gundo.vim.git
+	url = http://github.com/DasIch/gundo.vim.git
 [submodule "hub"]
 	path = hub
 	url = http://github.com/defunkt/hub.git
