@@ -31,3 +31,6 @@
 [submodule "hub"]
 	path = hub
 	url = http://github.com/defunkt/hub.git
+[submodule "vim/bundle/vala"]
+	path = vim/bundle/vala
+	url = git@github.com:DasIch/vim-vala.git
