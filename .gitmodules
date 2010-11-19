@@ -34,3 +34,6 @@
 [submodule "vim/bundle/vala"]
 	path = vim/bundle/vala
 	url = git@github.com:DasIch/vim-vala.git
+[submodule "vim/bundle/surround"]
+	path = vim/bundle/surround
+	url = git@github.com:DasIch/vim-surround.git
