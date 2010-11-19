@@ -1,6 +1,6 @@
 HOMEPREFIX ?= ~
 
-install: install-vim install-xmodmap install-bashrc install-virtualenvwrapper install-hub
+install: install-vim install-xmodmap install-bashrc install-virtualenvwrapper install-hub install-lodgeit
 
 clean: clean-vim clean-xmodmap clean-bashrc clean-virtualenvwrapper
 
@@ -43,3 +43,6 @@ clean-all-virtualenvwrapper:
 install-hub:
 	@cd hub && rake standalone
 	@ln -s `pwd`/hub/hub $(HOMEPREFIX)/bin/hub
+
+install-lodgeit:
+	@ln -s `pwd`/lodgeit.py $(HOMEPREFIX)/bin/lodgeit
