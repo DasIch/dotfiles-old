@@ -209,3 +209,6 @@ set spell
 " use british english (i don't want to get into any bad habits which creep up
 " on me at school)
 set spelllang=en_gb
+
+" update conque buffers even when unfocused
+let g:ConqueTerm_ReadUnfocused = 1
