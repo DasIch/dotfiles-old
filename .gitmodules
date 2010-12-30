@@ -39,4 +39,4 @@
 	url = git@github.com:DasIch/vim-surround.git
 [submodule "vim/bundle/conque"]
 	path = vim/bundle/conque
-	url = https://github.com/rson/vim-conque.git
+	url = git@github.com:DasIch/vim-conque.git
