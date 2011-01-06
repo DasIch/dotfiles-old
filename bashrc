@@ -1,5 +1,5 @@
 # Check for an interactive session
-[ -z "$PS1" ] && return
+	[ -z "$PS1" ] && return
 
 alias ls='ls --color=auto'
 alias ack='ack-grep'
@@ -7,6 +7,7 @@ alias ..='cd ..'
 alias git='hub'
 
 export TERM=xterm-color
+export PAGER=less
 
 PS1='\[\e[1;32m\]\W$(vcprompt)$\[\e[0m\] '
 
