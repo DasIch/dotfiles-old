@@ -8,6 +8,7 @@ alias git='hub'
 
 export TERM=xterm-color
 export PAGER=less
+export LESS=FRSXQ
 
 PS1='\[\e[1;32m\]\W$(vcprompt)$\[\e[0m\] '
 
