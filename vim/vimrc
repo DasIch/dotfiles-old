@@ -112,8 +112,8 @@ match OverLength /\%81v.\+/
 let mapleader=","
 
 " store backupfiles in ~/.vim/sessions
-set backupdir=~/.vim/sessions
-set dir=~/.vim/sessions
+set backupdir=~/.vim/sessions//
+set dir=~/.vim/sessions//
 
 if has("gui_running")
   " specify the horizontal size
