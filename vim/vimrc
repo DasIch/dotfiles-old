@@ -49,6 +49,7 @@ set showcmd
 
 if v:version >= 703
   set relativenumber
+  set undofile
 else
   set number
 endif
