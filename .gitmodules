@@ -46,3 +46,6 @@
 [submodule "vim/bundle/easymotion"]
 	path = vim/bundle/easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
+[submodule "vim/bundle/cabal"]
+	path = vim/bundle/cabal
+	url = git://github.com/vim-scripts/Cabal.vim.git
