@@ -21,7 +21,7 @@ GRAY_COLOR="[37m"
 PINK_COLOR="[35m"
 GREEN_COLOR="[32m"
 ORANGE_COLOR="[33m"
-VCPROMPT_EXECUTABLE=~/Projects/vcprompt/vcprompt
+VCPROMPT_EXECUTABLE=~/Projekte/vcprompt/vcprompt
 vcprompt() {
 	$VCPROMPT_EXECUTABLE -f $' on \033[34m%n\033[00m:\033[00m%[unknown]b\033[32m%m%u'
 }
