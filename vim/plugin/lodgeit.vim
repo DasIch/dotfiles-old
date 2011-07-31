@@ -118,11 +118,7 @@ else:
 
     print 'Pasted #%s to %s' % (paste_id, url)
     vim.command(':call setreg(\'+\', %r)' % url)
-
-    if update_buffer_info:
-        vim.command('file Lodgeit\ Paste\ \#%s' % paste_id)
-        vim.command('setlocal nomodified')
-        vim.command('let b:lodgeit_paste_id="%s"' % paste_id)
+    vim.command('let b:lodgeit_paste_id="%s"' % paste_id)
 
 endpython
 endfunction
