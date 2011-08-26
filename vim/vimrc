@@ -189,3 +189,6 @@ set list
 
 " update conque buffers even when unfocused
 let g:ConqueTerm_ReadUnfocused = 1
+
+" change leader key so it doesn't clutter the <Leader> namespace
+let g:EasyMotion_leader_key = 'e'
